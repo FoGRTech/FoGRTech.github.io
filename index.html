@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FoGR</title>
+		<meta charset="utf-8">
+			<link href="https://fonts.googleapis.com/css?family=Audiowide|Roboto+Condensed:300|Oswald|Quicksand|Montserrat" rel="stylesheet">
+				<link rel="stylesheet" href="home.css" />
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+					<link rel="stylesheet" href="aos-master/dist/aos.css" />
+					<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				</head>
+				<body>
+					<page>
+						<nav class='z-depth-0 hide-on-small-only' id='rob'>
+							<div class="nav-wrapper navcol">
+								<ul id="nav-mobile" class="right hide-on-med-and-down">
+									<li style='font-family:Quicksand;font-weight:bold;'>
+										<a href="#ser">About</a>
+									</li>
+									<li style='font-family:Quicksand;font-weight:bold;'>
+										<a href="#team">Subscribe</a>
+									</li>
+									<li style='font-family:Quicksand;font-weight:bold;'>
+										<a href="#myfooter">Contact Us</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+						<div class="hero" data-midnight="default">
+							<br/>
+							<br/>
+							<h1 class="center-align">FoGR</h1>
+							<p class="center-align header-cap">Future of Gesture Recognition</p>
+							<div class='container'>
+								<img class="center-align responsive-img" id='heroimg' src="images/herovid.gif">
+								</div>
+							</div>
+							<div class="avg" style="" data-midnight="avg">
+								<h2 class="caption" style="padding-top:120px;" data-aos='fade-down'>Wave through life!</h2>
+							</div>
+							<div class="services container-fluid" id='ser'>
+								<br/>
+								<br/>
+								<div class='container-fluid sercon'>
+									<div class='row' style="text-align: center; height:100px;">
+										<h4 data-aos='fade-down'>FEATURES</h4>
+									</div>
+									<br/>
+									<div class="row" style="text-align: center;">
+										<div class="col m1 hide-on-small-only"></div>
+										<div class="col s12 m4 svgtitle">
+											<img src = 'images/AI.svg' class='s' data-aos='fade-down'/>
+											<h4 class='caption' data-aos='fade-down'>AI Powered</h4>
+											<p data-aos='fade-down'>FoGR Tech. uses state-of-the-art AI powered algorithms to provide ultimate accuracy. It is a wearable designed to ensure remarkable user experience.</p>
+										</div>
+										<div class="col m2 s12"></div>
+										<div class="col s12 hide-on-med-and-up"></div>
+										<div class="col s12 m4 svgtitle">
+											<img src = 'images/apps.svg' class='s' data-aos='fade-down'/>
+											<h4 class='caption' data-aos='fade-down'>SDK</h4>
+											<p data-aos='fade-down'>Designed with developers in mind. FoGR provides SDKs in Python, Java and C# with full online documentation and samples.</p>
+										</div>
+										<div class="col m1 hide-on-small-only"></div>
+									</div>
+									<div class='row'>
+										<div class="col s12 hide-on-med-and-up"></div>
+									</div>
+									<div class='row'>
+										<div class="col s12 hide-on-med-and-up"></div>
+									</div>
+									<div class="row" style="text-align: center;">
+										<div class="col m1 hide-on-small-only"></div>
+										<div class="col s12 m4 svgtitle">
+											<img src = 'images/Raspberry_pi (3).svg' class='s' data-aos='fade-down'/>
+											<h4 class='caption' data-aos='fade-down'>Internet of Things</h4>
+											<p data-aos='fade-down'>Integrate FoGR Tech. seamlessly with internet-connected devices to monitor & control them. Create your own smart home applications using our SDKs and IoT platform. </p>
+										</div>
+										<div class="col m2 s12"></div>
+										<div class="col s12 hide-on-med-and-up"></div>
+										<div class="col s12 m4 svgtitle">
+											<img src = 'images/drone structure.svg' class='s' data-aos='fade-down'/>
+											<h4 class='caption' data-aos='fade-down'>UAV Integration</h4>
+											<p data-aos='fade-down'>Control UAV systems using gestures and define their functionalities. This way you have the simplicity to manage drones with just hand signals.</p>
+										</div>
+										<div class="col m1 hide-on-small-only"></div>
+									</div>
+								</div>
+							</div>
+							<div class="team center-align" style='padding-top:50px;' data-midnight="team" id='team'>
+								<h4 style='color:#ffffff;'>Be the first to hear from us.</h4>
+								<br/>
+								<br/>
+								<div class='container'>
+									<form class="col s12" id='subform' onsubmit='subdb()'>
+										<div class="row">
+											<div class="input-field col m5 s12">
+												<input id="name" type="text" class="validate">
+													<label for="name">Name</label>
+												</div>
+												<div class="input-field col m5 s12">
+													<input id="mail" type="text" class="validate" style="color:white; font-size: 20px;">
+														<label for="mail">Email ID</label>
+													</div>
+													<div style='padding-top:20px;'>
+														<button class="btn-floating btn-large waves-effect waves-light #0088ff blue" type="submit" name="action">
+															<i class="fa fa-angle-right fa-lg" aria-hidden="true" style="color:white;"></i>
+														</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</page>
+								<div class='footer' data-midnight="footer" id="myfooter">
+									<br/>
+									<br/>
+									<div class="container">
+										<div class="row">
+											<div class="col l6 s12">
+												<h5 class="white-text">Contact Us</h5>
+												<p class="grey-text text-lighten-4">Address:</p>
+												<p class="grey-text text-lighten-4">M-10/1, Kakateeya Nagar, Habsiguda, Hyderabad - 500007.</p>
+												<p class="grey-text text-lighten-4">Phone: 9550921211, 8309465874.</p>
+											</div>
+											<div class="col l4 offset-l2 s12" id='sm'>
+												<h5 class="white-text">Social Media</h5>
+												<div class='row'>
+													<div class='col m2 s1'>
+														<a class="grey-text text-lighten-3" href="http://fb.com/FogrTech" target="_blank">
+															<i class="fab fa-facebook fa-2x"></i>
+														</a>
+													</div>
+													<div class='col m2 s1'>
+														<a class="grey-text text-lighten-3" href="https://twitter.com/FogrTech" target="_blank">
+															<i class="fab fa-twitter fa-2x"></i>
+														</a>
+													</div>
+													<div class='col m2 s1'>
+														<a class="grey-text text-lighten-3" href="https://www.instagram.com/fogrtech/" target="_blank">
+															<i class="fab fa-instagram fa-2x"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+								<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+								<script src="https://fogrdb-6ff1.restdb.io/rest/_jsapi.js"></script>
+								<script src="aos-master/dist/aos.js"></script>
+								<script>
+         AOS.init({
+           duration: 500,
+           easing: 'ease-in-quart',
+           // delay: 100,
+         });
+      </script>
+								<script>
+         function subdb() {
+           var name = (document.getElementById ('name')).value;
+           var email = (document.getElementById ('mail')).value;
+           var db = new restdb("79f7178654b72637dfc7f8dd606d0d491f7e4");
+           var p = new db.subscriber({"name":name,"mailid":email});
+           p.save();
+           alert('job done!!!');
+         }
+      </script>
+							</body>
+						</html>
