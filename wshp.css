@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 100%;
+	width: 100%;
+	/*background-color: #3c3744*/
+}
+
+.mybar{
+	height: 60px;
+	opacity:0 ;
+}
+
+.navcol{
+	background-color:rgba(0, 136, 255,1.00);
+}
+
+
+#myfooter{
+	background-color: #3c3744;
+	height: 300px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+.wshp hr{
+text-align: center;
+border-width: 0px;
+height:3px;
+width: 50%;
+}
+
+.wshp h4{
+font-size: 2.4rem;
+}
+.wshp .sub{
+background-color: #0088ff;
+/* font-family: 'Lato'; */
+color: white;
+font-size: 20px;
+}
+.wshp .sub:hover{
+background-color: grey;
+}
+
+@media only screen and (max-width: 60em){
+
+	.footer{
+		height: 500px;
+	}
+
+	#myfooter{
+		height: 400px;
+	}
+
+
+
+
+	.wshp h4 {
+			font-size: 2rem;
+	}
+
+	.wshp mygutter{
+		height: 50px;
+	}
+
+}
